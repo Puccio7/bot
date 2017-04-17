@@ -2,12 +2,12 @@
 return {
 
     -- Your authorization token from the botfather. (string, put quotes)
-    bot_api_key = nil,
+    bot_api_key = 359531866:AAGU5HufdMu0Wewc0Q6pu4vlSHtZUjebiuI,
     -- Your Telegram ID (number).
-    admin = nil,
+    admin = 152719129,
     -- Two-letter language code.
     -- Fetches it from the system if available, or defaults to English.
-    lang = os.getenv('LANG') and os.getenv('LANG'):sub(1,2) or 'en',
+    lang = os.getenv('LANG') and os.getenv('LANG'):sub(1,2) or 'it',
     -- The channel, group, or user to send error reports to.
     -- If this is not set, errors will be printed to the console.
     log_chat = nil,
@@ -125,7 +125,7 @@ Send /help to get started.
         log_chat = nil,
         -- Default autoban setting.
         -- A user is banned after being autokicked this many times in a day.
-        autoban = 3,
+        autoban = 1,
         -- Default antiflood values.
         antiflood = {
             text = 5,
@@ -136,7 +136,7 @@ Send /help to get started.
             video = 10,
             location = 10,
             document = 10,
-            sticker = 20
+            sticker = 8
         },
         -- Default flag settings.
         flags = {
